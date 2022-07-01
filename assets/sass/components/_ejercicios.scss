@@ -1,0 +1,55 @@
+.ejercicio {
+  margin-bottom: 3em;
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 2em;
+  }
+}
+
+.ejercicio--01 {
+  padding-top: 2em;
+
+  &__img {
+    max-width: 30rem;
+    margin: 0 auto;
+    border-radius: 1.5em;
+    cursor: pointer;
+  }
+}
+
+.ejercicio--02 {
+  
+  &__img {
+    background-color: rgb(230, 230, 230);
+    padding: 1em;
+    border-radius: 1em;
+    max-width: 20rem;
+  }
+
+  &__subtitulo {
+    color: red;
+  }
+
+  &__input {
+    width: 80%;
+    margin-top: 1em;
+  }
+
+  &__btn {
+    margin-top: 1em;
+  }
+
+  &__mensaje {
+    margin-top: 1em;
+  }
+}
+
+.ejercicio--03 {
+
+  &__valores {
+    padding: 1.5em 0;
+  }
+  &__btn {
+    margin-bottom: 1em;
+  }
+}
